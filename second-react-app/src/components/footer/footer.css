@@ -1,0 +1,84 @@
+.footer {
+    font-size: 0.874rem;
+    font-weight: 300;
+    background: url(https://preview.colorlib.com/theme/laundry/assets/img/gallery/footer-bg.png.webp) center bottom /100% no-repeat ;
+
+}
+
+.footer .footer__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer__items > * {
+    width: 24%;
+}
+.footer .logo {
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+
+.footer__links {
+    display: inline-flex ;
+    margin-top: 20px;
+}
+
+.footer__links a {
+    background: rgba(103, 133, 255, .08);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100px;
+    margin-right: 10px;
+    color: #6785FF;
+}
+
+.footer__links a:hover,
+.footer__links a:focus {
+    color: white;
+    background: #6785ff;
+}
+.footer h3 {
+    margin-bottom: 30px;
+    margin-top: 10px; 
+}
+
+.footer .footer__services {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.footer .footer__services a {
+margin-bottom: 15px;
+}
+
+.footer .footer__services a::before {
+    content: "-";
+    margin-right: 6px;
+}
+
+.footer  a:hover,
+#footer  a:focus {
+    color: #6785ff;
+}
+.footer a[href^="tel"] {
+    color: #6785ff;
+    font-size: 1.625rem;
+}
+.footer .mail {
+    margin: 25px 0 15px;
+}
+
+.footer .copyright  {
+    font-weight: 400;
+    color: #1d2547;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.footer .copyright a {
+    color: #6785ff;
+}

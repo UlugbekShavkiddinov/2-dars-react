@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0 ;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+  }
+  
+  .header a {
+    height: 90px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .logo {
+  margin-left: 50px;
+  }
+  .navbar {
+    margin-right: auto;
+    margin-left: 60px;
+    font-weight: 700;
+    position: relative;
+    
+  }
+  
+  .navbar a {
+    padding-right: 43px;
+  } 
+  
+  .navbar a:hover {
+    color: #6785FF;
+  }
+  
+  .contact {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact img {
+    margin-right: 10px;
+  }
+  
+  .contact span {
+    font-size: 1.25rem;
+    padding: 0 20px;
+    border-left: 1px solid rgba(0, 0, 0, 0.151);
+    color: #6785FF;
+  }
+  .contact .appointment{
+    padding: 0 26px;
+  background: #6785FF;
+  color: white;
+  }

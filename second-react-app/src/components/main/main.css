@@ -1,0 +1,157 @@
+.section__services {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .section__service {
+    text-align: center;
+    width: 33.333333%;
+    padding: 0 20px;
+  }
+  
+  .section__service h3 {
+    margin: 20px;
+  }
+  
+  p {
+    line-height: 1.8;
+  }
+
+
+.service-offer__call {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 40px ;
+    background: url(https://preview.colorlib.com/theme/laundry/assets/img/gallery/section_bg01.png.webp ) center/cover no-repeat;
+    margin: 80px 0;
+    color: white;
+  }
+  
+  .service-offer__call .btn {
+    margin-top: 30px;
+    height: 25px;  
+  }
+  
+  .service-offer__call .title {
+    font-weight: bold;
+    font-size: 2.1875rem;
+    margin-bottom: 15px ;
+  }
+  
+  .service-offer__testimonials {
+    position: relative;
+    
+  }
+  
+  .service-offer__testimonials .service-offer__users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .service-offer__testimonials .service-offer__users img {
+    height: 50px;
+    margin: 0 3px;
+    opacity: 0.3;
+  }
+  
+  .service-offer__testimonials .service-offer__users img.active {
+    height: auto;
+    opacity: 1;
+  }
+  
+  .service-offer__testimonials .text {
+  text-align: center;
+  width: 50%;
+  font-size: 1.125rem;
+  margin: 25px auto;
+  }
+  .service-offer__testimonials .rating {
+    display: flex;
+    justify-content: center;
+    color: #fbba42;
+  }
+  
+  .service-offer__testimonials .rating * {
+    margin: 0 2px;
+  }
+  
+  .username {
+    text-align: center;
+    font-size: 1.125rem;
+    margin-top: 5px;
+  }
+  
+  .service-offer__testimonials .control {
+    background: transparent;
+    border-style: none;
+    padding: 0;
+    font-size: 1.375rem;
+    color: #1d2547;
+    position: absolute;
+    cursor: pointer;
+  }
+  .service-offer__testimonials .control:first-of-type {
+  top: 50%;
+  margin-top: -0.5em;
+  left: 0;
+  }
+  
+  .service-offer__testimonials .control:last-of-type {
+    right: 0;
+    top: 50%;
+  margin-top: -0.5em;
+  }
+
+  .service-offer__item{
+    display: flex;
+}
+
+.service-offer__img img  {
+    display: block ;
+    width: 100%;
+}
+
+.service-offer__content {
+    background: url(https://preview.colorlib.com/theme/laundry/assets/img/gallery/xoffers2.png.pagespeed.ic.p8Xmu_J-2v.webp) center bottom/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.service-offer__content h3 {
+    margin: 23px 0 ;
+    margin: 0 80px;
+}
+
+
+.service-offer__content p {
+    margin: 0 80px;
+}
+
+.service-offer__content,
+.service-offer__img {
+    width: 50%;
+}
+
+.achievement  {
+    display: flex ;
+    margin: 0 -20px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.achievement .achievement__item {
+    width: 33.333333%;
+    text-align: center;
+}
+
+.achievement .achievement__item p:first-child {
+    color: #6785FF;
+    font-size: 2.875rem;
+    font-weight: 600;
+}
